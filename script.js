@@ -4,7 +4,7 @@ let allnamecontainer = document.getElementById("cards_container");
 fetch(url)
   .then((res) => res.json())
   .then((data) => {
-    //console.log(data);
+    console.log(data);
     data.forEach((dataitem) => {
       let cardtemplate = `
 <div class="card" style="background-color: black">
